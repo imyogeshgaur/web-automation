@@ -12,7 +12,6 @@ const Signup = () => {
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
   const [role, setRole] = useState("")
-  const [alert, setalert] = useState(null);
 
   const userSignUp = async () => {
     try {

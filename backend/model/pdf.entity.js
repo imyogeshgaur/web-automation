@@ -22,6 +22,6 @@ const Pdf = sequelize.define('PDf', {
     },
 })
 
-Pdf.sync({alter:true})
+Pdf.sync()
 
 export default Pdf;

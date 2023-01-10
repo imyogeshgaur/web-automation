@@ -23,5 +23,14 @@ pdfRouter.get("/downloadPdf",authorization, async (req, res) => {
     }
 })
 
+pdfRouter.get("/list",authorization, async (req, res) => {
+    try {
+        const pdfController = new PdfController();
+        pdfController.listPdf(req,res);
+    } catch (error) {
+        console.log("Pdf Global Error : ", error)
+    }
+})
+
 
 export default pdfRouter;

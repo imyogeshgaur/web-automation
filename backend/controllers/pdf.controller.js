@@ -26,6 +26,16 @@ class PdfController {
             return res.status(500).send("Auth Controller : Internal Server Error !!!")
         }
     }
+
+    async listPdf(req,res){
+        try {
+            const pdfData = await this.pdfService.listPdf();
+            return res.status(200).send(pdfData)
+        } catch (error) {
+            console.log(error)
+            return res.status(500).send("Auth Controller : Internal Server Error !!!")
+        }
+    }
 }
 
 
