@@ -1,0 +1,22 @@
+.card{
+    margin-top:3rem;
+    background-color: rgb(145, 97, 233);
+    width:14rem;
+}
+.btn-primary{
+    background-color: rgb(109, 40, 236);   
+    outline: none;
+    border: none;
+}
+
+.btn-primary:active{
+    background-color: rgb(52, 28, 95)!important;   
+    outline: none!important;
+    border: none!important;
+}
+
+.btn-primary:hover{
+    background-color: rgb(100, 24, 240);   
+    outline: none;
+    border: none;
+}

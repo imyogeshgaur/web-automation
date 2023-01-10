@@ -1,0 +1,14 @@
+.card{
+    background-color: rgb(145, 97, 233)!important;
+    width:60%;
+    margin-left: 0!important;
+}
+.card2{
+    width:24rem;
+    margin-right: 0;
+    background-color: rgb(145, 97, 233)!important;
+}
+#checkout{
+    margin-top:-41.4rem;
+    margin-left:55rem;
+}
