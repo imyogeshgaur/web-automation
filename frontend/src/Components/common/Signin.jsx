@@ -105,7 +105,7 @@ const Signin = () => {
         </div>
         <button className="btn btn-primary w-50 mx-auto mb-4" onClick={signInUser}>Sign In</button>
         <Link style={{ color: "blue", cursor: "pointer", textDecoration: "none" }} className="mx-auto" to="/forgetPassword">Forget Password</Link>
-        <p className='text-light text-center mt-2'>New To Meri Dukaan ?  <Link style={{ color: "blue", cursor: "pointer", textDecoration: "none" }} to="/signup">Sign Up Here</Link></p>
+        <p className='text-light text-center mt-2'>New To Pdf Manager ?  <Link style={{ color: "blue", cursor: "pointer", textDecoration: "none" }} to="/signup">Sign Up Here</Link></p>
       </div>
       <ToastContainer autoClose={1000} />
     </>
